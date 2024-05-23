@@ -7,12 +7,12 @@ public class SumOfDigits {
 
 		int num=321;
 		int sum=0;
-		int temp;
+		int rem;
 
 		while(num>0)
 		{
-			temp=num%10;
-			sum=sum+temp;
+			rem=num%10;
+			sum=sum+rem;
 			//System.out.println(sum);
 			num=num/10;
 		}

@@ -31,9 +31,7 @@ public class ReverseStringwithSpace {
 			}
 		}
 		
-		System.out.println(String.valueOf(result));
-		
-		
+		System.out.println(result);			
 	}
 
 }

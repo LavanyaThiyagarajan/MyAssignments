@@ -25,11 +25,9 @@ public class OccurenceOfCharacter {
 							count++;	
 						}				
 					}		 
-					
-					boolean add = o.add(charArray[i]);
-					if(add) {
-						System.out.println("Occurences of "+charArray[i]+ " " +count );
-					}	
+					boolean add=o.add(charArray[i]);
+					if(add)
+						System.out.println(charArray[i]+""+count);
 					
 					
 				}
